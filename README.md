@@ -1,6 +1,6 @@
 # crazypdf
 
-A generic, extensible PDF processing library for Go. Designed with a modular architecture where each capability (text extraction, structure analysis, etc.) lives in its own feature package under a shared core document model.
+A generic, extensible PDF processing library for Go. 
 
 ## Features
 
@@ -157,9 +157,9 @@ crazypdf/
     └── sample.pdf
 ```
 
-### Adding New Features
+### Contributing
 
-The library is designed for extension. To add a new feature:
+Happy to seek new contributions!. To add a new feature:
 
 1. Create a new directory under `pkg/` (e.g., `pkg/structurize/`, `pkg/metadata/`)
 2. Accept `*crazypdf.Document` or `*crazypdf.Page` as input
@@ -205,3 +205,5 @@ The library is designed for extension. To add a new feature:
 ## License
 
 See [LICENSE](LICENSE) for details.
+
+Thanks!
